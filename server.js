@@ -15,7 +15,7 @@ const server = http.createServer(app);
 
 // Fix CORS issue
 app.use(cors({
-    origin: ["http://localhost:3000"], // Allow frontend origin
+    origin: ["https://virtual-room-deal-frontend.vercel.app"], // Allow frontend origin
     methods: ["GET", "POST", "PUT", "DELETE"],
     credentials: true
 }));
